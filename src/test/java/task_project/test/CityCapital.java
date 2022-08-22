@@ -5,6 +5,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.*;
@@ -16,17 +17,6 @@ import static io.restassured.RestAssured.*;
 
 public class CityCapital{
 
-//    @BeforeAll
-//    public static void setUp(){
-//        baseURI = "https://restcountries.com/v3.1/";
-//    }
-//
-//    @Test
-//    public void firstTest(){
-//
-//        Response response = given().accept(ContentType.JSON).when().get("name/peru");
-//
-//        assertTrue(response.asString().contains("capital"));
 
 
     String url = "https://restcountries.com/v3.1";
